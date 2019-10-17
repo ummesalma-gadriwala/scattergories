@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1e1bfc-3bda-4853-be47-49f5e5613c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scattergories/Dice$Letters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scattergories/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scattergories/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scattergories/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scattergories/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,8 @@
       <list>
         <option value="Kotlin Enum" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -109,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571255582528</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dice class with roll method">
+      <created>1571262070986</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571262070986</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Dice class with roll method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dice class with roll method" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/scattergories$Scattergories.ic" NAME="Scattergories Coverage Results" MODIFIED="1571261987310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

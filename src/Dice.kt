@@ -1,13 +1,12 @@
 import kotlin.random.Random
 
-class Dice {
-
-    val roll: Letters
+object Dice {
+    val roll: Letter
         get() {
-            return Letters.values()[Random.nextInt(0, Letters.values().size)]
+            return Letter.values()[Random.nextInt(0, Letter.values().size+1)]
         }
 
-    enum class Letters(val isVowel: Boolean = false) {
+    enum class Letter(val isVowel: Boolean = false) {
         A(true),
         B,
         C,
@@ -35,6 +34,4 @@ class Dice {
         Y,
         Z;
     }
-
-
 }
