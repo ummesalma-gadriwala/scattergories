@@ -1,12 +1,11 @@
 import kotlin.random.Random
 
 object List {
-    private const val size = 12;
 
     fun getList(): Set<String> {
         var list = mutableSetOf<String>()
 
-        while (list.count() < this.size) {
+        while (list.count() < Constants.ListSize) {
             var index = Random.nextInt(0, this.categories.size+1)
             list.add(this.categories[index])
         }
