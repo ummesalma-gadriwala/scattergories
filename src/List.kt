@@ -1,18 +1,34 @@
 import kotlin.random.Random
 
-object List {
+// Category list
+class List {
 
-    fun getList(): Set<String> {
-        var list = mutableSetOf<String>()
-
-        while (list.count() < Constants.ListSize) {
-            var index = Random.nextInt(0, this.categories.size+1)
-            list.add(this.categories[index])
+    // a hashmap with key: category and value: players' response
+    var list: HashMap<String, String> = this.make()
+        private set(value) {
+            field = value
         }
 
-        return list;
+    // create a copy of the List object
+    public fun clone(): List {
+        var other: List = List()
+        other.list = this.list
+        return other
     }
 
+    // make creates a random hashmap of categories
+    private fun make(): HashMap<String, String> {
+        var map = HashMap<String, String>()
+
+        while (map.size < Constants.ListSize) {
+            var index = Random.nextInt(0, this.categories.size)
+            map[this.categories[index].toLowerCase()] = ""
+        }
+
+        return map;
+    }
+
+    // array of possible categories for the list
     private val categories: Array<String>
         get() {
             return arrayOf(

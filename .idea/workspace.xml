@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c1e1bfc-3bda-4853-be47-49f5e5613c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Player.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Round.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scattergories/Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scattergories/Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scattergories/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scattergories/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/List.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,19 +19,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="190" />
+    <option name="myElementSize" value="185" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="UmmeSalmaShabbir Gadriwala &lt;gadriwau@mcmaster.ca&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SIeYBUWcFLhUL2SyK0VSDr4qdC" />
@@ -125,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571271005398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Abstracted out constants in an object class">
+      <created>1571273580151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571273580151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +151,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -142,9 +162,13 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Dice class with roll method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dice class with roll method" />
+    <MESSAGE value="Abstracted out constants in an object class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstracted out constants in an object class" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scattergories$Scattergories.ic" NAME="Scattergories Coverage Results" MODIFIED="1571261987310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/scattergories$Scattergories.ic" NAME="Scattergories Coverage Results" MODIFIED="1571280569220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
